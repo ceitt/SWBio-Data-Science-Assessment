@@ -1,5 +1,5 @@
 # Stylophora pistillata Putative Venom Gene Expression Analysis from Savary et al. 2021
-##### The file SWBio DataSci Proj.py contains the script for performing a PCA analysis and visulaization for Long term (RSS) and Short term (CB) heat stress experiemtns conducted by Savary et al. 2021
+##### The file SWBio DataSci Proj.py contains the script for performing a PCA analysis and visulaization for Long term (RSS) and Short term (CB) heat stress experiemtns conducted by Savary et al. 2021 (https://doi.org/10.1073/pnas.2023298118)
 
 ## Dependencies
 ##### This script requires Python vrersion 3.12.2
@@ -10,15 +10,18 @@
         pip3 install pandas seaborn numpy matplotlib scikit-learn
 
 ## Running the Script
-#### Download python script and file 'Savary  TPM Data.xlsx' to the same folder
-#### Working in the same folder, run the script as written to produce the PCA visulazations for the RSS (long term) and CB (short term) heat stress groups
+#### Download python script and file 'Savary TPM Data.xlsx' to the same folder
+#### Working in the same folder, run the script in the command line, leaving as written, to produce the PCA visulazations for the RSS (long term) and CB (short term) heat stress groups
 #### The script will output two plots, 'CBASS Short Term Heat Stress' and 'RSS Long Term Heat Stress which will save into the working folder
 ###### See 'CB.png' and 'RSS.png' for output plots
+
+###### In the command line of the terminal run:
+        python3 SWBioDataSciProj.py
 
 ## Data Frames
 ### There are several data frames that are created in this script.
 #### The first set of data frames are those that are extracting the data from each sheet of the Excel file, which are seperated by assigned sample genotype (G8-15)
-#### The second set are those same dataframes, but cut down to only contain the 37 target putative toxin genes with which the analysis will be performed
+#### The second set are those same data frames, but cut down to only contain the 37 target putative toxin genes with which the analysis will be performed
 ##### This is done with each of the 5 genotype data frames
 #### The data frames are then seperated by the treatment types, either the short term (CB) or long term (RSS) treatments
 ###### ie. G8_CB or G8_RSS
@@ -58,3 +61,14 @@
 ## Additional information
 #### Before each of the visulaization there are several lines of code which adjust the data types of the data frames
 #### This is done to allow for all data frames to be consolicated into one using pd.concat
+#### There are several bits of infromation displayed on the terminal as the code is running, this simply corisonds to several 'sanity checks' written into the code regarding the dataframe contents and data types, this information is not pertinent to the final analysis
+
+## Output Figures
+### CB.png
+#### The figure for the short term heat stress implies that there is not any significant differnce between any groups in their expression of the target putative venom genes, as there are no distinct clusters
+#### This can possibly be interpreted as putative venom genes being uneffected by stress responses or that they are supported by the coral to maintain consistent experession dispite stress responses
+##### There is evidence that the corals in this study mounted a stress response based on differently expressed genes on a whole transcriptome level
+### RSS.png
+#### The visulazation for the long term heat stress displays a nearly identcal result to the short term heat stress
+#### There is no distinction between any groups, implaying the same conclustions as those for the short term heat stress
+##### The greatest difference for the long term heat stress compared to the short term heat stress is that there is more varience captured by principal components 1 and 2 for the short term heat stress (94.68&) than those for the long term heat stress (80.98%), meaning that less of the data are explained by components 1 and 2
