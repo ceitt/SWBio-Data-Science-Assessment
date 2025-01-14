@@ -12,6 +12,9 @@
 ## Running the Script
 #### Download python script and file 'Savary  TPM Data.xlsx' to the same folder
 #### Working in the same folder, run the script as written to produce the PCA visulazations for the RSS (long term) and CB (short term) heat stress groups
+#### The script will output two plots, 'CBASS Short Term Heat Stress' and 'RSS Long Term Heat Stress
+###### See 'ENTER WHAT THE FIGURE IS CALLED HERE' and 'THE OTHER ONE HERE' for output plots
 
-
+## Data Frames
+####
         
