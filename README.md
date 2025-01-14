@@ -1,6 +1,9 @@
 # Stylophora pistillata Putative Venom Gene Expression Analysis from Savary et al. 2021
 ##### The file SWBio DataSci Proj.py contains the script for performing a PCA analysis and visulaization for Long term (RSS) and Short term (CB) heat stress experiemtns conducted by Savary et al. 2021 (https://doi.org/10.1073/pnas.2023298118)
 
+## Background
+#### Venom is an imporant comonent of Cnnidarian functionality, as it is used for both defence and predation. Stony corals, members of the Cnidarian phylum, rely most on their symbiotic algae for the majority of their energy requierments, but this is supplimented by feeding from the water colunm using their venomous nematocysts. Here, we attempt to determine if there are any changes in putative toxin genes as a whole in response to heat stress, as this generally causes expulsion of the coarls photosynthetic endosymbiotes and therefore a loss of a great deal of their energy supply. 
+
 ## Dependencies
 ##### This script requires Python vrersion 3.12.2
 ##### Aditionally: 
@@ -63,7 +66,7 @@
 #### This is done to allow for all data frames to be consolicated into one using pd.concat
 #### There are several bits of infromation displayed on the terminal as the code is running, this simply corisonds to several 'sanity checks' written into the code regarding the dataframe contents and data types, this information is not pertinent to the final analysis
 
-## Output Figures
+## Output Figures/ Discussion
 ### CB.png
 #### The figure for the short term heat stress implies that there is not any significant differnce between any groups in their expression of the target putative venom genes, as there are no distinct clusters
 #### This can possibly be interpreted as putative venom genes being uneffected by stress responses or that they are supported by the coral to maintain consistent experession dispite stress responses
