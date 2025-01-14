@@ -241,6 +241,7 @@ CB_plot=sns.scatterplot(data=pcaDf, x="PC1", y="PC2", hue="Temperature", style= 
 CB_plot.set(title= 'CBASS Short Term Heat Stress', xlabel="PC2 (2.536459% Explained Varience)",
       ylabel="PC1 (92.154495% Explained Varience)")
 
+plt.savefig('CB.png')
 plt.show()
 
 #Repeat from long formatting data with RSS (Long term heat stress) data, creating PCA Analysis and plotting
@@ -314,4 +315,5 @@ RSS_plot=sns.scatterplot(data=pcaDf1, x="PC1", y="PC2", hue="Temperature", style
 RSS_plot.set(title= 'RSS Long Term Heat Stress',xlabel="PC2 (12.449607% Explained Varience)",
       ylabel="PC1 (68.531026% Explained Varience)")
 
+plt.savefig('RSS.png')
 plt.show()
