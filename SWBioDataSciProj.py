@@ -3,7 +3,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 import numpy as np
-get_ipython().run_line_magic('matplotlib', 'inline')
+import matplotlib
+matplotlib.use('inline')
+
 
 
 # read in data
