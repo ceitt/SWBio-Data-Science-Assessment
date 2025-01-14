@@ -2,7 +2,7 @@
 ##### The file SWBio DataSci Proj.py contains the script for performing a PCA analysis and visulaization for Long term (RSS) and Short term (CB) heat stress experiemtns conducted by Savary et al. 2021 (https://doi.org/10.1073/pnas.2023298118)
 
 ## Background
-#### Venom is an imporant comonent of Cnnidarian functionality, as it is used for both defence and predation. Stony corals, members of the Cnidarian phylum, rely most on their symbiotic algae for the majority of their energy requierments, but this is supplimented by feeding from the water colunm using their venomous nematocysts. Here, we attempt to determine if there are any changes in putative toxin genes as a whole in response to heat stress, as this generally causes expulsion of the coarls photosynthetic endosymbiotes and therefore a loss of a great deal of their energy supply. 
+#### Venom is an imporant component of Cnidarian functionality, as it is used for both defence and predation. Stony corals, members of the Cnidarian phylum, rely most on their symbiotic algae for the majority of their energy requierments, but this is supplimented by feeding from the water colunm using their venomous nematocysts. Here, we attempt to determine if there are any changes in putative toxin genes as a whole in response to heat stress, as this generally causes expulsion of the coarls photosynthetic endosymbiotes and therefore a loss of a great deal of their energy supply. 
 
 ## Dependencies
 ##### This script requires Python vrersion 3.12.2
